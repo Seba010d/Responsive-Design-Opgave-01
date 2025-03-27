@@ -205,14 +205,14 @@ a {
 }
 
 .section-four h2 {
-  padding: 1rem;
+  padding: 0 1rem;
   font-size: 2.2rem;
   margin-bottom: 0.8rem;
   color: #009cb2;
 }
 
 .section-four h3 {
-  padding: 1rem;
+  padding: 0 1rem;
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
   color: #2acbd6;
@@ -263,6 +263,48 @@ a {
   .section-four .img-container img {
     flex: 1 1 33.333%;
     max-width: 33.333%;
+  }
+}
+/* #endregion */
+/* #region SECTION FIVE */
+.section-five {
+  padding: 1rem;
+  color: black;
+  text-align: center;
+}
+
+.section-five h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+  color: #009cb2;
+}
+
+.section-five ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-five li {
+  margin: 0;
+  line-height: 1;
+}
+
+.section-five strong {
+  color: var(--darkGreen);
+}
+
+/* MOBIL TILSTAND */
+
+@media (min-width: 768px) {
+  .section-five {
+    text-align: left;
+  }
+
+  .section-five ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
 /* #endregion */
